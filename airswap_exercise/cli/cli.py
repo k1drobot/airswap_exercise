@@ -16,7 +16,7 @@ def cli(ctx, verbose):
         level = logging.DEBUG
     else:
         level=logging.WARN
-    logging.basicConfig(level)
+    logging.basicConfig(level=level)
     logging.debug('Start application')
 
 @cli.command()
