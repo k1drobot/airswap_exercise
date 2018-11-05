@@ -15,13 +15,8 @@ def get_price(symbol):
     if r.status_code == 200:
         json_body = json.loads(r.text)
         logging.debug("GET %s " % json_body)
-        return float(json_body['price'])
+        return float(json_body.get('price', 0.0))
     elif r.status_code == 400:
         raise ValueError("Invalid Symbol")
     else:
         raise ValueError("I have no idea")
-# 400
-# {"code":-1121,"msg":"Invalid symbol."}
-# [Finished in 2.6s]
-
-# connect_to_api()
