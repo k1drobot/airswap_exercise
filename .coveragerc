@@ -1,0 +1,11 @@
+[run]
+omit = tests/*
+branch = True
+
+[xml]
+output = artifacts/coverage/coverage.xml
+
+[report]
+show_missing = True
+exclude_lines =
+    pragma: no cover
