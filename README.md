@@ -5,7 +5,7 @@ airswap_exercise
 
 Author
 ------
-* Brandon Ng <ng.brandonh@<gmail class="com"></gmail>>
+* Brandon Ng
 
 
 pip install package
