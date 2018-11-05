@@ -10,8 +10,7 @@ Author
 
 pip install package
 
-``` pip install -e . ```
-
+``` pip install -e . 
 cmd to run 
  airswap 
   	-v add debugging
@@ -20,4 +19,10 @@ cmd to run
  	-s symbol (default = ETHBTC)
 	-d length of mean sample (default = 60)
 
- ex. airswap -v calculate_mean -d 60 -s ETHBTC
+ ex. airswap -v calculate_mean -d 60 -s ETHBTC 
+
+ Tests
+ ------
+py.test --cov-report xml --cov=. tests/
+
+ ```

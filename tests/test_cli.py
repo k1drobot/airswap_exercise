@@ -2,7 +2,7 @@ import mock
 import requests
 import pytest
 
-from airswap_exercise.cli import calculate_mean
+from airswap_exercise import cli
 
 def test_calculator():
 	pass
