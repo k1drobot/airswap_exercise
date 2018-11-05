@@ -5,12 +5,14 @@ airswap_exercise
 
 Author
 ------
-* Brandon Ng <ng.brandonh@<gmail class="com"></gmail>>
+* Brandon Ng
 
+python 2.7
 
 pip install package
 
 ``` pip install -e . 
+
 cmd to run 
  airswap 
   	-v add debugging
