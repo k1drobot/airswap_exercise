@@ -7,10 +7,12 @@ Author
 ------
 * Brandon Ng
 
+python 2.7
 
 pip install package
 
 ``` pip install -e . 
+
 cmd to run 
  airswap 
   	-v add debugging
