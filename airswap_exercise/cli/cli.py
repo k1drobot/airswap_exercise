@@ -13,9 +13,10 @@ from airswap_exercise import connector
 @click.pass_context
 def cli(ctx, verbose):
     if verbose:
-        logging.basicConfig(level=logging.DEBUG)
+        level = logging.DEBUG
     else:
-        logging.basicConfig(level=logging.WARN)
+        level=logging.WARN
+    logging.basicConfig(level)
     logging.debug('Start application')
 
 @cli.command()
